@@ -1,4 +1,4 @@
-module github.com/gopxl/beep/v2
+module github.com/Hermitter/beep/v2
 
 go 1.25.0
 
