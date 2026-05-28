@@ -9,10 +9,10 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/effects"
-	"github.com/gopxl/beep/v2/mp3"
-	"github.com/gopxl/beep/v2/speaker"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/effects"
+	"github.com/Hermitter/beep/v2/mp3"
+	"github.com/Hermitter/beep/v2/speaker"
 )
 
 func multiplyChannels(left, right float64, s beep.Streamer) beep.Streamer {

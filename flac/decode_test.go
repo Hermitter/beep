@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gopxl/beep/v2/flac"
-	"github.com/gopxl/beep/v2/internal/testtools"
-	"github.com/gopxl/beep/v2/wav"
+	"github.com/Hermitter/beep/v2/flac"
+	"github.com/Hermitter/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2/wav"
 
 	mewkiz_flac "github.com/mewkiz/flac"
 )

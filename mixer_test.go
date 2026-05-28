@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 )
 
 func TestMixer_MixesSamples(t *testing.T) {
@@ -96,7 +96,7 @@ func TestMixer_PlaysSilenceWhenNoStreamersProduceSamples(t *testing.T) {
 	assert.Equal(t, make([][2]float64, 10), samples)
 }
 
-// Bug: https://github.com/gopxl/beep/issues/197#issuecomment-2468951277
+// Bug: https://github.com/Hermitter/beep/issues/197#issuecomment-2468951277
 func TestMixer_CanClearDuringCallback(t *testing.T) {
 	m := beep.Mixer{}
 

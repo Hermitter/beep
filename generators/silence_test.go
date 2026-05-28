@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gopxl/beep/v2/generators"
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2/generators"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 )
 
 func TestSilence_StreamsFiniteSamples(t *testing.T) {

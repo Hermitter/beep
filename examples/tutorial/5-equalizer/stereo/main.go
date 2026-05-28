@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/effects"
-	"github.com/gopxl/beep/v2/speaker"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/effects"
+	"github.com/Hermitter/beep/v2/speaker"
 )
 
 func noise() beep.Streamer {

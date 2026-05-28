@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/mp3"
-	"github.com/gopxl/beep/v2/speaker"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/mp3"
+	"github.com/Hermitter/beep/v2/speaker"
 )
 
 func main() {

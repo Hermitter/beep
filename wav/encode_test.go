@@ -5,10 +5,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/effects"
-	"github.com/gopxl/beep/v2/generators"
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/effects"
+	"github.com/Hermitter/beep/v2/generators"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 
 	"github.com/orcaman/writerseeker"
 	"github.com/stretchr/testify/assert"

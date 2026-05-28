@@ -1,21 +1,21 @@
 # Beep
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/gopxl/beep/v2.svg)](https://pkg.go.dev/github.com/gopxl/beep/v2)
-[![Go build status](https://github.com/gopxl/beep/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/gopxl/beep/actions/workflows/go.yml?query=branch%3Amain)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Hermitter/beep/v2.svg)](https://pkg.go.dev/github.com/Hermitter/beep/v2)
+[![Go build status](https://github.com/Hermitter/beep/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/Hermitter/beep/actions/workflows/go.yml?query=branch%3Amain)
 [![Coverage Status](https://coveralls.io/repos/github/gopxl/beep/badge.svg?branch=main)](https://coveralls.io/github/gopxl/beep?branch=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gopxl/beep/v2)](https://goreportcard.com/report/github.com/gopxl/beep/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Hermitter/beep/v2)](https://goreportcard.com/report/github.com/Hermitter/beep/v2)
 [![Discord Chat](https://img.shields.io/discord/1158461233121468496)](https://discord.gg/hPBTTXGDU3)
 
 
 A little package that brings sound to any Go application. Suitable for playback and audio-processing.
 
 ```
-go get -u github.com/gopxl/beep/v2
+go get -u github.com/Hermitter/beep/v2
 ```
 
 ## Features
 
-Beep is built on top of its [Streamer](https://godoc.org/github.com/gopxl/beep#Streamer) interface, which is like [io.Reader](https://golang.org/pkg/io/#Reader), but for audio. It was one of the best design decisions I've ever made and it enabled all the rest of the features to naturally come together with not much code.
+Beep is built on top of its [Streamer](https://godoc.org/github.com/Hermitter/beep#Streamer) interface, which is like [io.Reader](https://golang.org/pkg/io/#Reader), but for audio. It was one of the best design decisions I've ever made and it enabled all the rest of the features to naturally come together with not much code.
 
 - **Decode and play WAV, MP3, Ogg Vorbis, FLAC and MIDI.**
 - **Encode and save WAV.**
@@ -27,18 +27,18 @@ Beep is built on top of its [Streamer](https://godoc.org/github.com/gopxl/beep#S
 
 ## Tutorial
 
-The [Wiki](https://github.com/gopxl/beep/wiki) contains a handful of tutorials for you to get started. They teach the fundamentals and advanced topics alike. **Read them especially if you call `speaker.Init` every time you play something.**
+The [Wiki](https://github.com/Hermitter/beep/wiki) contains a handful of tutorials for you to get started. They teach the fundamentals and advanced topics alike. **Read them especially if you call `speaker.Init` every time you play something.**
 
-- [Hello, Beep!](https://github.com/gopxl/beep/wiki/Hello,-Beep!)
-- [Composing and controlling](https://github.com/gopxl/beep/wiki/Composing-and-controlling)
-- [To buffer, or not to buffer, that is the question](https://github.com/gopxl/beep/wiki/To-buffer,-or-not-to-buffer,-that-is-the-question)
-- [Making own streamers](https://github.com/gopxl/beep/wiki/Making-own-streamers)
+- [Hello, Beep!](https://github.com/Hermitter/beep/wiki/Hello,-Beep!)
+- [Composing and controlling](https://github.com/Hermitter/beep/wiki/Composing-and-controlling)
+- [To buffer, or not to buffer, that is the question](https://github.com/Hermitter/beep/wiki/To-buffer,-or-not-to-buffer,-that-is-the-question)
+- [Making own streamers](https://github.com/Hermitter/beep/wiki/Making-own-streamers)
 
 ## Examples
 
-| [Speedy Player](https://github.com/gopxl/beep/tree/main/examples/speedy-player)                 | [Doppler Stereo Room](https://github.com/gopxl/beep/tree/main/examples/doppler-stereo-room)                 |
+| [Speedy Player](https://github.com/Hermitter/beep/tree/main/examples/speedy-player)                 | [Doppler Stereo Room](https://github.com/Hermitter/beep/tree/main/examples/doppler-stereo-room)                 |
 |-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| ![Speedy Player](https://github.com/gopxl/beep/blob/main/examples/speedy-player/screenshot.png) | ![Doppler Stereo Room](https://github.com/gopxl/beep/blob/main/examples/doppler-stereo-room/screenshot.png) |
+| ![Speedy Player](https://github.com/Hermitter/beep/blob/main/examples/speedy-player/screenshot.png) | ![Doppler Stereo Room](https://github.com/Hermitter/beep/blob/main/examples/doppler-stereo-room/screenshot.png) |
 
 ## Dependencies
 
@@ -48,7 +48,7 @@ Running an already built application should work with no extra dependencies.
 
 ## License
 
-[MIT](https://github.com/gopxl/beep/blob/main/LICENSE)
+[MIT](https://github.com/Hermitter/beep/blob/main/LICENSE)
 
 ## Related projects
 

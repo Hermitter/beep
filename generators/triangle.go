@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/gopxl/beep/v2"
+	"github.com/Hermitter/beep/v2"
 )
 
 type triangleGenerator struct {

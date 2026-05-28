@@ -9,8 +9,8 @@ import (
 	"github.com/ebitengine/oto/v3"
 	"github.com/pkg/errors"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/internal/util"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/internal/util"
 )
 
 const channelCount = 2

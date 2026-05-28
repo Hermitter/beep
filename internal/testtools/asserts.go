@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gopxl/beep/v2"
+	"github.com/Hermitter/beep/v2"
 )
 
 // AssertStreamerHasCorrectReturnBehaviour tests whether the return values returned

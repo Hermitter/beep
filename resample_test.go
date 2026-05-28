@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 )
 
 func TestResample(t *testing.T) {

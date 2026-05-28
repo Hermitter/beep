@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gopxl/beep/v2"
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 )
 
 func TestCtrl_CanBePausedAndUnpaused(t *testing.T) {

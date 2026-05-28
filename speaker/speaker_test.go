@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gopxl/beep/v2/internal/testtools"
+	"github.com/Hermitter/beep/v2/internal/testtools"
 )
 
 func BenchmarkSampleReader_Read(b *testing.B) {
